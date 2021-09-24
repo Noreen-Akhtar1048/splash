@@ -134,9 +134,11 @@
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/female"
             android:layout_marginStart="20sp"
-            android:textSize="15sp"/>
+            android:text="@string/female"
+            android:textColor="#37474F"
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
     </RadioGroup>
 
     <Button

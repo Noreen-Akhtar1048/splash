@@ -12,6 +12,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".signup"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
